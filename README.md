@@ -1,6 +1,7 @@
 # Guessing game 🤔
 
 - Repository: `guessing-game`
+- URL Repository: [Guessing-Game](https://grb-ds.github.io/guessing-game/)
 - URL Challenge: [Casino-royale](https://github.com/becodeorg/gnt-verou-1-26/tree/master/2.The-Hill/2.Casino-royale)
 - Type of Challenge: `Learning Challenge`
 - Duration: take your time
