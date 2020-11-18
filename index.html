@@ -1,0 +1,53 @@
+<!--
+ * becode/javascript
+ *
+ * /02-maths/02-calculator-two/index.html - 2.2: calculatrice (2)
+ *
+ * coded by leny@BeCode
+ * started at 26/10/2018
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>BeCode/JavaScript - 2.2: calculator (2)</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link rel="stylesheet" href="../../_shared/css/normalize.css" />
+        <link rel="stylesheet" href="../../_shared/css/styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>GUESSING-GAME</h1>
+            </header>
+            <div class="content">
+                <section class="explain">
+                    <p>Guess the secret number between 1 and 22</p>
+                </section>
+                <section class="material">
+                    <form action="#" method="post">
+                        <div class="field">
+                            <label for="guess-number">Your number:</label>
+                            <input type="text" name="guess-number" id="guess-number" />
+                        </div>
+                        <div class="actions">
+                            <button type="button" class="operator" id="run">PLAY</button>
+                        </div>
+                    </form>
+                </section>
+
+                <section class="explain">
+                    <p>RESULT:</p>
+                    <p id="target"></p>
+                    <img alt="Pasteis" id="image" src="./images/pasteis.jpg" style="visibility:hidden">
+
+                </section>
+
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
+
